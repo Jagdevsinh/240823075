@@ -1,5 +1,5 @@
 console.log("even or odd")
-a=20
+a=7
 if(a%2 == 0)
 {
     console.log("even")
