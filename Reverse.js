@@ -1,14 +1,10 @@
-let num = 4562;
-
-    function reverseDigits(n) {
-        let revNum = 0;
-        while(n > 0)
-        {
-            revNum = revNum * 10 + n % 10;
-            n = Math.floor(n / 10);
-        }
-        return revNum;
-    }
-    
- // function call   
-    console.log(reverseDigits(num));
+let num = 1423;
+let reversed=0;
+let number = num;
+ while (number > 0){
+     let digit = number %10;
+     reversed = reversed * 10;
+     number = Math.floor(number/10);
+ }
+ console.log("Original number:",num);
+ console.log("Reversed number:",reversed);
