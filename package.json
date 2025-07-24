@@ -16,5 +16,8 @@
     "url": "https://github.com/Jagdevsinh/240823075/issues"
   },
   "homepage": "https://github.com/Jagdevsinh/240823075#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
 }
