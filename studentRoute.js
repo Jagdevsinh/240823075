@@ -1,11 +1,13 @@
 const express = require("express");
 const Router = express.Router();
-const studentController = require("../controllers/studentController");
+const studentController = require ("../controller/studentController");
 
-Router.get("/index", studentController.index);
-Router.get("/show/:id", studentController.show);
-Router.post("/store", studentController.store);
-Router.put("/update/:id", studentController.update);  // You had `.delete` here by mistake
-Router.delete("/delete/:id", studentController.delete);
+Router.get("/index",studentController.index);
 
-module.exports = Router;
+Router.get("/show/:id",studentController.show);
+Router.post("/store",studentController.store);
+Router.put("/update/:id",studentController.update);
+
+Router.delete("/delete/:id",studentController.delete);
+
+module.exports=Router;
